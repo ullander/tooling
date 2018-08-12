@@ -1,2 +1,7 @@
 console.log("Nu kör vi!")
-function test() {}
+function test() {
+  var enemy = hero.findEnemy();
+  if (enemy) {
+    hero.attack(enemy);
+  }
+}
